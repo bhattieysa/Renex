@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserContract"
+    android:background="@drawable/bgjob">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_120sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027"
+        app:srcCompat="@drawable/ren" />
+
+    <TextView
+        android:id="@+id/usertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/userContract"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/usertxt2"
+        app:layout_constraintTop_toBottomOf="@id/usertxt"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:text="@string/usercontract2"/>
+
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="148dp"
+        android:outlineAmbientShadowColor="@color/orange"
+        android:outlineSpotShadowColor="@color/orange"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/usertxt2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/usertxt3"
+        app:layout_constraintTop_toBottomOf="@id/usertxt2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="By Accepting The Terms And Coditions, You Are Taking Full Responsibility For What happens (to your contract),
+And The Application itself Or (its Creators) Don't have Any Liability "
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/_15ssp"
+        android:layout_marginTop="@dimen/_8sdp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accpt"
+        android:text="I Accept The Terms And Conditions"
+        app:layout_constraintTop_toBottomOf="@id/usertxt2"
+        app:layout_constraintStart_toEndOf="@id/cb1"
+        app:layout_constraintBaseline_toBaselineOf="@id/cb1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13ssp"/>
+
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/login"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="NEXT"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13ssp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accpt"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

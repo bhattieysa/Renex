@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/StudioProjects/Renex/app/src/main/res/layout/activity_client_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/StudioProjects/Renex/app/src/main/res/layout/activity_contractor_home.xml" value="0.15555555555555556" />
+        <entry key="..\:/StudioProjects/Renex/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/StudioProjects/Renex/app/src/main/res/layout/activity_my_projects_contractor.xml" value="0.20416666666666666" />
+        <entry key="..\:/StudioProjects/Renex/app/src/main/res/layout/activity_view_details2.xml" value="0.20416666666666666" />
+        <entry key="..\:/StudioProjects/Renex/app/src/main/res/layout/activity_view_details_client.xml" value="0.20416666666666666" />
+        <entry key="..\:/StudioProjects/Renex/app/src/main/res/layout/activity_view_details_contractors.xml" value="0.15555555555555556" />
+        <entry key="..\:/StudioProjects/Renex/app/src/main/res/layout/card.xml" value="0.20416666666666666" />
+        <entry key="..\:/StudioProjects/Renex/app/src/main/res/layout/card2.xml" value="0.20416666666666666" />
+        <entry key="..\:/StudioProjects/Renex/app/src/main/res/layout/card3.xml" value="0.20416666666666666" />
+        <entry key="..\:/StudioProjects/Renex/app/src/main/res/layout/fragment_client_f_l2.xml" value="0.20416666666666666" />
+        <entry key="..\:/StudioProjects/Renex/app/src/main/res/layout/job_posting.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/StudioProjects/Renex/app/src/main/res/layout/activity_forgot_password_contractor.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/StudioProjects/Renex/app/src/main/res/layout/activity_payment.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/Ali Mirza/StudioProjects/Renex/app/src/main/res/layout/fragment_client_signup.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

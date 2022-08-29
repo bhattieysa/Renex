@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Renex</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="payapl_client_id">AZgeg8cwpARzTZdDYnJ2CyvUq4iaiaugQYUDSidF9aQZV1bdwQ2SWPD9VBDLhNb5eEAkJFv5UN8JDZK8</string>
+    <string name="yvett_fee">Helloblankfragment</string>
+    <string name="paypal_payment_currency">Helloblankfragment</string>
+    <string name="userContract">IMPORTANT! BE SURE TO CAREFULLY READ AND UNDERSTAND ALL OF THE RIGHTS AND RESTRICTONS SET FORTH IN THIS END-USER LICENSE
+    AGREEMENT ("EULA"). YOU WILL BE ASKED TO REVIEW AND EITHER ACCEPT OR NOT ACCEPT THE TERMS OF THE EULA. YOU ARE NOT AUTHORIZED TO USE THIS SOFTWARE UNLESS
+        OR UNTILL YOU ACCEPT THE TERMS OF THIS EULA.
+    </string>
+    <string name="usercontract2">You Must Accept This EULA Even Though You Really Have No Choice. We Know You Are not Reading This But Our Lawyers Want Us To Include
+    This Anyway. We Could Get You To Accept Just About Anything You Need To Use Our Software</string>
+</resources>

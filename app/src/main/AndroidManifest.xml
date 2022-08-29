@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Singleton"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_applogo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".UserContract"></activity>
+        <activity android:name=".ForgotPasswordContractor" />
+        <activity android:name=".ViewDetails2" />
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+
+        <activity android:name=".Payment" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".ViewDetailsContractors" />
+        <activity android:name=".ContractorsProject" />
+        <activity android:name=".MyProjectsContractor" />
+        <activity android:name=".FullScreenImage" />
+        <activity
+            android:name=".ViewDetailsClient"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ContractorHome" />
+        <activity android:name=".ClientHome" />
+        <activity android:name=".MyProjectsClient" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".Login" />
+        <activity android:name=".job_posting" />
+        <activity android:name=".FirstPage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
